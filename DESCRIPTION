@@ -15,3 +15,5 @@ provider: blaserlab
 release_date: 12 Oct 2021
 source_url: http://ftp.ensembl.org/pub/release-105/fasta/danio_rerio/dna/
 biocViews: AnnotationData, Genetics, BSgenome, Danio_rerio
+URL: https://github.com/blaserlab/BSgenome.Drerio.blaserlabgenotyping.dr11
+BugReports: https://github.com/blaserlab/BSgenome.Drerio.blaserlabgenotyping.dr11/issues
