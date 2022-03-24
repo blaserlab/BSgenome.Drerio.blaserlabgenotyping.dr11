@@ -1,0 +1,17 @@
+Package: BSgenome.Drerio.blaserlabgenotyping.dr11
+Title: Rebuilt danRer11 genome using only standard chromosomes.
+Description: This genome is built from chromosomes 1:25 only for genotyping.
+Version: 0.0.0.9002
+Author: Brad Blaser 
+Maintainer: Brad Blaser <bradley.blaser@osumc.edu>
+Depends: R (>= 3.5.0), BSgenome (>= 1.62.0)
+Imports: BSgenome
+Suggests: 
+License: MIT + file LICENSE
+organism: Danio rerio
+common_name: zebrafish
+genome: GRCz11
+provider: blaserlab
+release_date: 12 Oct 2021
+source_url: http://ftp.ensembl.org/pub/release-105/fasta/danio_rerio/dna/
+biocViews: AnnotationData, Genetics, BSgenome, Danio_rerio
