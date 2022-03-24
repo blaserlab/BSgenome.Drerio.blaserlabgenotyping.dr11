@@ -45,28 +45,28 @@ break                                                                     #
 #                  commands for collaborating via git                     #
 #                 ------------------------------------                    #
 #                                                                         #
-# # Run these commands regularly for branching, updating and merging      #
-#                                                                         #
-# # create a working branch for your day's work                           #
-# blaseRtemplates::git_easy_branch(branch = "user_working")               #
-#                                                                         #
-# # save, add and commit your work but don't push                         #
-# gert::git_add("*")                                                      #
-# gert::git_commit("<commit message>")                                    #
-#                                                                         #
-# # frequently update your working branch from main or master branch      #
-# # this will first update main or master from remote                     #
-# blaseRtemplates::git_update_branch()                                    #
-#                                                                         #
-#                                                                         #
-# # once you are done with your day's work, merge back into main          #
-# blaseRtemplates::git_safe_merge()                                       #
-#                                                                         #
-# # remember to delete your branch when you are done merging:             #
-# gert::git_branch_delete(branch = "user_working")                        #
-#                                                                         #
-# # remember to push your changes to github so we can all get them:       #
-# blaseRtemplates::git_push_all()                                         #
+# Run these commands regularly for branching, updating and merging      #
+                                                                        #
+# create a working branch for your day's work                           #
+blaseRtemplates::git_easy_branch(branch = "user_working")               #
+                                                                        #
+# save, add and commit your work but don't push                         #
+gert::git_add("*")                                                      #
+gert::git_commit("<commit message>")                                    #
+                                                                        #
+# frequently update your working branch from main or master branch      #
+# this will first update main or master from remote                     #
+blaseRtemplates::git_update_branch()                                    #
+                                                                        #
+                                                                        #
+# once you are done with your day's work, merge back into main          #
+blaseRtemplates::git_safe_merge()                                       #
+                                                                        #
+# remember to delete your branch when you are done merging:             #
+gert::git_branch_delete(branch = "user_working")                        #
+                                                                        #
+# remember to push your changes to github so we can all get them:       #
+blaseRtemplates::git_push_all()                                         #
 #                                                                         #
 ###########################################################################
 
