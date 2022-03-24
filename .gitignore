@@ -5,6 +5,6 @@
 .DS_Store
 *.rda
 R/local_configs.R
-*/git_commands.R
+data-raw/git_commands.R
 R/regenerated_git_commands.R
 inst/extdata/*

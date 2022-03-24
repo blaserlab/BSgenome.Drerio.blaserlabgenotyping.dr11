@@ -48,7 +48,7 @@ break                                                                     #
 # Run these commands regularly for branching, updating and merging      #
                                                                         #
 # create a working branch for your day's work                           #
-blaseRtemplates::git_easy_branch(branch = "user_working")               #
+blaseRtemplates::git_easy_branch(branch = "brad_working")               #
                                                                         #
 # save, add and commit your work but don't push                         #
 gert::git_add("*")                                                      #
@@ -63,7 +63,7 @@ blaseRtemplates::git_update_branch()                                    #
 blaseRtemplates::git_safe_merge()                                       #
                                                                         #
 # remember to delete your branch when you are done merging:             #
-gert::git_branch_delete(branch = "user_working")                        #
+gert::git_branch_delete(branch = "brad_working")                        #
                                                                         #
 # remember to push your changes to github so we can all get them:       #
 blaseRtemplates::git_push_all()                                         #
