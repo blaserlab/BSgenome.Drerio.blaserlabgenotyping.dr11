@@ -1,7 +1,7 @@
 Package: BSgenome.Drerio.blaserlabgenotyping.dr11
 Title: Rebuilt danRer11 genome using only standard chromosomes.
 Description: This genome is built from chromosomes 1:25 only for genotyping.
-Version: 0.0.0.9002
+Version: 0.0.0.9003
 Author: Brad Blaser 
 Maintainer: Brad Blaser <bradley.blaser@osumc.edu>
 Depends: R (>= 3.5.0), BSgenome (>= 1.62.0)
@@ -17,3 +17,4 @@ source_url: http://ftp.ensembl.org/pub/release-105/fasta/danio_rerio/dna/
 biocViews: AnnotationData, Genetics, BSgenome, Danio_rerio
 URL: https://github.com/blaserlab/BSgenome.Drerio.blaserlabgenotyping.dr11
 BugReports: https://github.com/blaserlab/BSgenome.Drerio.blaserlabgenotyping.dr11/issues
+RoxygenNote: 7.2.3
